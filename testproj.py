@@ -1,4 +1,4 @@
 print "hello world"
 
-
-this is my first  proj
+class first_proj:
+    pass
