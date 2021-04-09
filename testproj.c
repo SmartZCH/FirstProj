@@ -1,4 +1,9 @@
-print "hello world"
+#include <stdio.h>
 
-class first_proj:
-    pass
+int main(void){
+printf("This is a test file");
+int i;
+for (i=0;i<=3;i++){
+    printf("%d,",i);
+}
+}
