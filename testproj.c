@@ -118,6 +118,5 @@ struct graph
 int main() {
 struct graph* g = (struct graph *)malloc(sizeof(struct graph ));
 g->a->value1 = 5;
-printf("%d",g->a->value1);
 }
  
