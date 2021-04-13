@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<stdlib.h>
 /*int main(void){
 printf("This is a test file");
 int i;
@@ -16,13 +16,7 @@ struct point p;
 p.x = 2;
 p.y = 3;
 printf("%d",p.x);
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-=======
-}
->>>>>>> local
 }*/
 /*int main(){
 printf("这是关于指针的解释\n");
@@ -98,7 +92,7 @@ printf("i 的地址为%d", *ppi);
 }*/
 
 
-void swap(int *x, int *y);
+/*void swap(int *x, int *y);
 int main(){
 	int x = 20, y = 10;
 	swap(&x, &y);//输入的是地址，用地址来访问这个函数的入口
@@ -110,5 +104,20 @@ void swap(int *x, int *y){//这里访问x和y这两个地址的值
 	t = *x;
 	*x = *y;
 	*y = t;
+}*/
+
+typedef struct Node
+{
+    int value1;
+    int value2;
+}*p;
+struct graph
+{
+    p a;
+};
+int main() {
+struct graph* g = (struct graph *)malloc(sizeof(struct graph ));
+g->a->value1 = 5;
+printf("%d",g->a->value1);
 }
->>>>>>> local
+ 
