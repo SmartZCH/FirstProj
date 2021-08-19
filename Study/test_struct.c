@@ -8,6 +8,6 @@ struct test_struct
 
 int main(){
     struct test_struct aaa;
-    printf("%d\n", aaa.name=2);
+    printf("%d, %d\n", aaa.name=2, person1.age=1);
     return 0;
 }
